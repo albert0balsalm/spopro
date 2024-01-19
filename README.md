@@ -2,6 +2,12 @@
 
 This Python script analyzes your Spotify listening history and creates visualizations based on your top tracks. Additionally, it generates seasonal playlists for your favorite genres.
 
+## Project Structure
+
+When you download this project, ensure that the JSON files and the Python script (`spotify_analyzer.py`) are in the same directory. The script automatically scans for JSON files and processes them without requiring explicit file path specifications.
+
+If you encounter any issues with file access or data loading, please ensure that the JSON files are present in the same directory as the Python script.
+
 ## Prerequisites
 
 - Python 3.x
@@ -12,9 +18,6 @@ This Python script analyzes your Spotify listening history and creates visualiza
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/spotify-listening-history.git
-   cd spotify-listening-history
 
    
 Install dependencies:
@@ -24,8 +27,6 @@ pip install spotipy pandas matplotlib seaborn
 
 
 Set up Spotify API credentials:
-
-
 Create a Spotify Developer Account: Spotify Developer Dashboard
 Obtain your client_id and client_secret.
 Set the redirect_uri in the Spotify Developer Dashboard.
