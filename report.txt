@@ -1,0 +1,64 @@
+Spotify Listening History Analyzer Report
+Introduction
+The Spotify Listening History Analyzer is a Python script created to provide users with in-depth insights into their music preferences and habits based on their Spotify listening history. The project aims to enhance users' understanding of their music choices through various visualizations and features. It was developed over a span of 14 hours to offer an efficient and informative tool for Spotify users.
+
+Motivation
+The motivation behind this project was to leverage Spotify's extensive API and analytics capabilities to uncover patterns and trends within a user's listening history. By visualizing data and creating personalized playlists, the script helps users explore their music preferences, identify favorite genres, and even discover new tracks and artists.
+
+Prerequisites
+Before running the script, users need to ensure they have the following prerequisites:
+
+Python 3.x installed on their system.
+A Spotify Developer Account to obtain a client ID and client secret.
+A Spotify account with available listening history.
+Getting Started
+Clone the Repository:
+
+git clone https://github.com/your-username/spotify-listening-history.git
+cd spotify-listening-history
+Install Dependencies:
+
+Install the necessary Python libraries using the following command:
+
+pip install spotipy pandas matplotlib seaborn
+Set up Spotify API Credentials:
+
+Create a Spotify Developer Account on the Spotify Developer Dashboard.
+Obtain your client_id and client_secret.
+Set the redirect_uri in the Spotify Developer Dashboard.
+Run the Script:
+
+Execute the Python script using the following command:
+
+python spotify_analyzer.py
+Features
+The Spotify Listening History Analyzer offers a range of features to explore and analyze listening habits:
+
+Visualize Genre Distribution by Time of Day:
+Understand how genre preferences vary throughout different times of the day, providing insights into the user's daily music moods.
+
+View Track Counts by Time of Day:
+Analyze the distribution of track counts during different hours, revealing patterns in the user's listening behavior.
+
+Explore Mood-Related Audio Features:
+Examine the distribution of audio features related to mood, such as tempo and valence, providing a deeper understanding of the user's musical preferences.
+
+Check Track Count by Artist:
+Identify the most-listened-to artists based on the track count, showcasing the user's top artist preferences.
+
+Analyze Genre Distribution of All-Time Tracks:
+Gain insights into the overall genre distribution of all-time favorite tracks, highlighting the user's long-term music preferences.
+
+Generate and Update Seasonal Playlists:
+Automatically create and refresh playlists tailored to different seasons, offering a dynamic and personalized listening experience.
+
+Challenges and Solutions
+Throughout the development process, several challenges were encountered, including API rate limits and data formatting inconsistencies. To overcome these challenges, careful error handling and data preprocessing techniques were implemented. Additionally, the use of the spotipy library streamlined the interaction with the Spotify API, providing a robust foundation for the project.
+
+
+Conclusion
+The Spotify Listening History Analyzer provides users with a powerful tool to explore and understand their music preferences. By combining data visualization, analytics, and playlist generation, the script offers an engaging and insightful experience. The project serves as a testament to the possibilities that arise from leveraging APIs and data analytics to enhance the user experience in various domains. The continuous development and refinement of such tools contribute to the exploration and enjoyment of music in the digital age.
+
+Author
+Emir Musa Kibar
+Email: emir.kibar@sabanciuniv.edu
